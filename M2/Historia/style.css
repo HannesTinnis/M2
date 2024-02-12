@@ -1,0 +1,56 @@
+header{
+    background-color: black;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.primary-navigation{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    list-style-type: none;
+    padding:0rem;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-inline:auto;
+    width: 90%;
+    padding: .2rem .2rem;
+}
+
+.top-header-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: mintcream ;
+    
+}
+
+section{
+    width: 60%;
+    margin-inline:auto;
+    columns: 2;
+    font-size: small;
+}
+
+.title{
+    width: 25%;
+    margin-inline: auto;
+}
+
+
+footer{
+    margin: 5rem;
+}
